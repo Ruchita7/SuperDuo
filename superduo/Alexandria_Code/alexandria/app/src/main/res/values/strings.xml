@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources  xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="false">Alexandria</string>
+
+    <!-- Menu Items -->
+    <string name="books"  translatable="false">List of Books</string>
+    <string name="scan" translatable="false">Scan/Add a Book</string>
+    <string name="about" translatable="false">About this App</string>
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="scan_button" translatable="false">Scan</string>
+    <!--string name="input_hint" translatable="false">Insert ISBN-13. Digits only.</string-->
+    <string name="input_hint" translatable="false">Enter 13 digit ISBN</string>
+    <string name="book_cover" translatable="false">Bookcover</string>
+
+    <string name="ok_button" translatable="false">Next</string>
+    <string name="cancel_button" translatable="false">Cancel</string>
+    <string name="not_found" translatable="false">No Book found</string>
+    <string name="search" translatable="false">Search</string>
+    <string name="delete" translatable="false">Delete Book</string>
+    <string name="pref_startScreen" translatable="false">Select Startscreen</string>
+    <string name="title_activity_settings" translatable="false">Settings</string>
+    <string name="action_share" translatable="false">Share</string>
+    <string name="back_button" translatable="false">go back</string>
+    <string name="share_text" translatable="false">A must read book: </string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="about_text" translatable="false">This application gets book information from a Google API. All titles, cover images, and author information come from there.
+    The original version of this app was built by Sascha Jaschke, and a modified version is given to students in the Udacity Android Nanodegree program. </string>
+
+    <string name="network_unavailable" translatable="false">No book information available. The network is not available to fetch book information</string>
+    <string name="empty_list_server_down" translatable="false">No book information available. The server is not returning data.</string>
+    <string name="empty_list_server_error" translatable="false">No book information available.  The server is not returning valid data. Please check for an updated version of the app.</string>
+    <string name="invalid_request_error" translatable="false">No book information available.  The request is not recognized by the server. </string>
+    <string name="book_unavailable" translatable="false">No book information available.</string>
+    <string name="book_already_added" translatable="false">Book information is already added to the List of Books </string>
+    <!--string name="invalid_barcode_error">No book information available. The barcode entered is not recognized by the server. </string-->
+
+    <string name="book_detail" translatable="false">Book Detail</string>
+    <string name="modify_success" translatable="false"><xliff:g id="title">%1$s</xliff:g> is already added to the list of books!</string>
+    <string name="add_success" translatable="false">Book is added to the list of books!</string>
+    <string name="deletion_success" translatable="false"><xliff:g id="title">%1$s</xliff:g>  is deleted from the list of books!</string>
+    <string name="author" translatable="false">Author : <xliff:g id="author">%1$s</xliff:g></string>
+    <string name="forecast_base_url" translatable="false">https://www.googleapis.com/books/v1/volumes?</string>
+    <string name="query_param"  translatable="false">q</string>
+    <string name="isbn_param" translatable="false">isbn:<xliff:g id="isbn">%1$s</xliff:g> </string>
+
+    <string name="items" translatable="false">items</string>
+    <string name="volume_Info" translatable="false">volumeInfo</string>
+    <string name="title" translatable="false">title</string>
+    <string name="subtitle" translatable="false">subtitle</string>
+    <string name="authors" translatable="false">authors</string>
+    <string name="desc" translatable="false">description</string>
+    <string name="categories" translatable="false">categories</string>
+    <string name="img_url_path" translatable="false">imageLinks</string>
+    <string name="img_url" translatable="false">thumbnail</string>
+    <string name="ean_content" translatable="false">eanContent</string>
+    <string name="book_detail_key"  translatable="false">BOOK_DETAIL_KEY</string>
+    <string name="pref_start_fragment" translatable="false">pref_startFragment</string>
+    <string name="start_fragment_default_value" translatable="false">0</string>
+    <string name="no_books_found" translatable="false">No book with the entered search criteria found</string>
+    <string name="search_hint" translatable="false">Enter book title/subtitle to search</string>
+</resources>

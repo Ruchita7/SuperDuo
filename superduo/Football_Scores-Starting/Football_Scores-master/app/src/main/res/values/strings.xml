@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name" translatable="false">Football Scores</string>
+	<string name="hello_world" translatable="false">Hello world!
+	</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="test_text" translatable="false">Test</string>
+    <string name="today" translatable="false">Today</string>
+    <string name="yesterday" translatable="false">Yesterday</string>
+    <string name="tomorrow" translatable="false">Tomorrow</string>
+	<string name="champions_league" translatable="false">UEFA Champions League
+	</string>
+    <string name="bundesliga" translatable="false">Bundesliga</string>
+	<string name="premierleague" translatable="false">Premier League
+	</string>
+	<string name="primeradivison" translatable="false">Primera Division
+	</string>
+    <string name="seriaa" translatable="false">Serie A</string>
+	<string name="matchday_text" translatable="false">Match day : <xliff:g id="day">%1$d</xliff:g>
+	</string>
+	<string name="group_stage_text" translatable="false">Group stages
+	</string>
+	<string name="group_stages" translatable="false">Group Stages, Matchday : 6</string>
+	<string name="first_knockout_round" translatable="false">First knockout round</string>
+    <string name="quarter_final" translatable="false">Quarter Final</string>
+    <string name="semi_final" translatable="false">Semi Final</string>
+    <string name="final_text" translatable="false">Final</string>
+    <string name="share_text" translatable="false">Share</string>
+    <string name="about" translatable="false">About</string>
+	<string name="title_activity_about" translatable="false">AboutActivity
+	</string>
+
+	<string name="not_known" translatable="false">Not known League Please
+		report</string>
+	<string name="about_text" translatable="false">
+		This Application get Football Matches Score for the Premier League,Seria A,Bundesliga,Primera Division
+		and the Uefa Champions League.All Matches data are acquired from football-data.org free API.
+		All team Logos are acquired from http://hdlogo.wordpress.com/ upon requesting permission
+		form the owner.The original version of this app was created by Yahia Khalid Ibn El Walid
+		Ahmed, and a modified version is given to students in the Udacity Android Nanodegree program.
+		To report any bugs,or suggestions do not hesitate to send a mail to y.k.ibnelwalid@gmail.com.
+		During the off season, fake data will be added to the app.
+	</string>
+	<string name="widget_text" translatable="false">This is a widget
+		probably.
+	</string>
+	<string name="api_key" translatable="false"></string>
+	<string name="dummy_data" translatable="false">{\"timeFrameStart\":\"2015-06-18\",\"timeFrameEnd\":\"2015-06-19\",\"count\":1,\"fixtures\":[{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/alpha/fixtures/140514\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/alpha/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"TESTING1\",\"awayTeamName\":\"TESTING2\",\"result\":{\"goalsHomeTeam\":2,\"goalsAwayTeam\":4}},{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/alpha/fixtures/140514\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/alpha/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"TESTING1\",\"awayTeamName\":\"TESTING2\",\"result\":{\"goalsHomeTeam\":2,\"goalsAwayTeam\":4}},{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/alpha/fixtures/140514\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/alpha/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"TESTING1\",\"awayTeamName\":\"TESTING2\",\"result\":{\"goalsHomeTeam\":2,\"goalsAwayTeam\":4}},{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/alpha/fixtures/140514\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/alpha/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"TESTING1\",\"awayTeamName\":\"TESTING2\",\"result\":{\"goalsHomeTeam\":2,\"goalsAwayTeam\":4}},{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/alpha/fixtures/140514\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/alpha/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"TESTING1\",\"awayTeamName\":\"TESTING2\",\"result\":{\"goalsHomeTeam\":2,\"goalsAwayTeam\":4}}]}
+	</string>
+
+	<string name="football_detail" translatable="false">Football Scores
+	</string>
+	<string name="list_unavailable" translatable="false">No Football League Scores Available
+	</string>
+
+	<string name="sync_account_type" translatable="false">footballscores
+	</string>
+	<string name="content_authority" translatable="false">barqsoft.footballscores
+	</string>
+
+    <string name="pref_status_key" translatable="false">sync_status</string>
+	<string name="network_unavailable" translatable="false">No football
+		scores available. The network is not available to fetch football data
+	</string>
+	<string name="empty_list_server_down" translatable="false">No football
+		scores available. The server is not returning data.
+	</string>
+	<string name="empty_list_server_error" translatable="false">No football
+		scores available. The server is not returning valid data. Please check
+		for an updated version of the app.
+	</string>
+	<string name="invalid_request_error" translatable="false">No football
+		scores available. The request is not recognized by the server.
+	</string>
+    <string name="index" translatable="false">Index</string>
+    <string name="selected_tab" translatable="false">Selected_Tab</string>
+    <string name="match_id" translatable="false">Match_Id</string>
+
+
+    <string name="n2" translatable="false">n2</string>
+    <string name="p2" translatable="false">p2</string>
+	<string name="base_url" translatable="false">"http://api.football-data.org/alpha/fixtures"
+	</string>
+    <string name="query_time_frame" translatable="false">timeFrame</string>
+    <string name="get" translatable="false">GET</string>
+    <string name="x_auth_token" translatable="false">X-Auth-Token</string>
+    <string name="fixtures" translatable="false">fixtures</string>
+
+	<string name="season_link" translatable="false">http://api.football-data.org/alpha/soccerseasons/
+	</string>
+	<string name="match_link" translatable="false">http://api.football-data.org/alpha/fixtures/
+	</string>
+    <string name="links" translatable="false">_links</string>
+    <string name="soccer_season" translatable="false">soccerseason</string>
+    <string name="self" translatable="false">self</string>
+    <string name="match_date" translatable="false">date</string>
+    <string name="home_team" translatable="false">homeTeamName</string>
+    <string name="away_team" translatable="false">awayTeamName</string>
+    <string name="result" translatable="false">result</string>
+    <string name="home_goals" translatable="false">goalsHomeTeam</string>
+    <string name="away_goals" translatable="false">goalsAwayTeam</string>
+    <string name="match_day" translatable="false">matchday</string>
+
+    <string name="Arsenal_FC" translatable="false">Arsenal FC</string>
+    <string name="Manchester_United_FC" translatable="false">Manchester United FC</string>
+    <string name="Swansea_City_FC" translatable="false">Swansea City FC</string>
+    <string name="Leicester_City_FC" translatable="false">Leicester City FC</string>
+    <string name="Everton_FC" translatable="false">Everton FC</string>
+    <string name="West_Ham_United_FC" translatable="false">West Ham United FC</string>
+    <string name="Tottenham_Hotspur_FC" translatable="false">Tottenham Hotspur FC</string>
+    <string name="West_Bromwich_Albion_FC" translatable="false">West Bromwich Albion FC</string>
+    <string name="Sunderland_AFC" translatable="false">Sunderland AFC</string>
+    <string name="Stoke_City_FC" translatable="false">Stoke City FC</string>
+    <string name="AFC_Bournemouth" translatable="false">AFC Bournemouth</string>
+    <string name="Aston_Villa_FC" translatable="false">Aston Villa FC</string>
+    <string name="Cardiff_City_FC" translatable="false">Cardiff City FC</string>
+    <string name="Chelsea_FC" translatable="false">Chelsea FC</string>
+    <string name="Crystal_Palace_FC" translatable="false">Crystal Palace FC</string>
+    <string name="Fulham_FC" translatable="false">Fulham FC</string>
+    <string name="Hull_City_AFC" translatable="false">Hull City AFC</string>
+    <string name="Liverpool_FC" translatable="false">Liverpool FC</string>
+    <string name="Manchester_City_FC" translatable="false">Manchester City FC</string>
+    <string name="Newcastle_United_FC" translatable="false">Newcastle United FC</string>
+    <string name="Norwich_City_FC" translatable="false">Norwich City FC</string>
+    <string name="Queens_Park_Rangers_FC" translatable="false">Queens Park Rangers FC</string>
+    <string name="Southampton_FC" translatable="false">Southampton FC</string>
+    <string name="Watford_FC" translatable="false">Watford FC</string>
+    <string name="Almeria" translatable="false">Almeria</string>
+    <string name="Athletic_Club" translatable="false">Athletic Club</string>
+
+    <string name="Club_Atletico_de_Madrid" translatable="false">Club Atlético de Madrid</string>
+    <string name="FC_Barcelona" translatable="false">FC Barcelona</string>
+    <string name="CA_Osasuna" translatable="false">CA Osasuna</string>
+    <string name="RC_Celta_de_Vigo" translatable="false">RC Celta de Vigo</string>
+    <string name="Cordoba_CF" translatable="false">Cordoba CF</string>
+    <string name="RC_Deportivo_La_Coruna" translatable="false">RC Deportivo La Coruna</string>
+    <string name="SD_Eibar" translatable="false">SD Eibar</string>
+    <string name="Elche_CF" translatable="false">Elche CF</string>
+    <string name="RCD_Espanyol" translatable="false">RCD Espanyol</string>
+    <string name="Getafe_CF" translatable="false">Getafe CF</string>
+    <string name="Granada_CF" translatable="false">Granada CF</string>
+    <string name="Levante_UD" translatable="false">Levante UD</string>
+    <string name="Malaga_CF" translatable="false">Málaga CF</string>
+    <string name="Moghreb_Tetouan" translatable="false">Moghreb Tétouan</string>
+    <string name="Rayo_Vallecano_de_Madrid" translatable="false">Rayo Vallecano de Madrid</string>
+    <string name="Real_Betis" translatable="false">Real Betis</string>
+    <string name="Real_Madrid_CF" translatable="false">Real Madrid CF</string>
+    <string name="Real_Sociedad_de_Futbol" translatable="false">Real Sociedad de Fútbol</string>
+    <string name="Sevilla_FC" translatable="false">Sevilla FC</string>
+    <string name="Sporting_Gijon" translatable="false">Sporting Gijón</string>
+    <string name="UD_Las_Palmas" translatable="false">UD Las Palmas</string>
+    <string name="Valencia_CF" translatable="false">Valencia CF</string>
+
+    <string name="Villarreal_CF" translatable="false">Villarreal CF</string>
+    <string name="Bayer_04_Leverkusen" translatable="false">Bayer 04 Leverkusen</string>
+    <string name="Borussia_Dortmund" translatable="false">Borussia Dortmund</string>
+    <string name="Borussia_Monchengladbach" translatable="false">Borussia Mönchengladbach</string>
+    <string name="Eintracht_Frankfurt" translatable="false">Eintracht Frankfurt</string>
+    <string name="FC_Augsburg" translatable="false">FC Augsburg</string>
+    <string name="FC_Bayern_Munich" translatable="false">FC Bayern Munich</string>
+    <string name="FC_Koln" translatable="false">FC Koln</string>
+
+    <string name="Schalke_04" translatable="false">Schalke 04</string>
+    <string name="Hamburger_SV" translatable="false">Hamburger SV</string>
+    <string name="Hannover_96" translatable="false">Hannover 96</string>
+    <string name="Hertha_Berlin" translatable="false">Hertha Berlin</string>
+    <string name="Werder_Bremen" translatable="false">Werder Bremen</string>
+    <string name="Hoffenheim" translatable="false">1899 Hoffenheim</string>
+    <string name="VfB_Stuttgart" translatable="false">VfB Stuttgart</string>
+    <string name="VfL_Wolfsburg" translatable="false">VfL Wolfsburg</string>
+    <string name="AC_Cesena" translatable="false">A.C. Cesena</string>
+    <string name="AC_Chievo_Verona" translatable="false">AC Chievo Verona</string>
+
+    <string name="AS_Livorno_Calcio" translatable="false">A.S. Livorno Calcio</string>
+    <string name="AC_Milan" translatable="false">AC Milan</string>
+    <string name="ACF_Fiorentina" translatable="false">ACF Fiorentina</string>
+    <string name="AS_Roma" translatable="false">AS Roma</string>
+    <string name="Atalanta_BC" translatable="false">Atalanta BC</string>
+    <string name="Bologna_FC" translatable="false">Bologna FC</string>
+    <string name="Cagliari_Calcio" translatable="false">Cagliari Calcio</string>
+    <string name="Carpi_FC" translatable="false">Carpi FC</string>
+    <string name="Empoli_FC" translatable="false">Empoli FC</string>
+    <string name="Frosinone_Calcio" translatable="false">Frosinone Calcio</string>
+    <string name="Genoa_CFC" translatable="false">Genoa CFC</string>
+    <string name="Hellas_Verona_FC" translatable="false">Hellas Verona FC</string>
+    <string name="FC_Internazionale_Milano" translatable="false">FC Internazionale Milano</string>
+    <string name="Juventus_Turin" translatable="false">Juventus Turin</string>
+    <string name="SSD_Parma_Calcio_1913" translatable="false">S.S.D. Parma Calcio 1913</string>
+    <string name="SS_Lazio" translatable="false">SS Lazio</string>
+    <string name="SSC_Napoli" translatable="false">SSC Napoli</string>
+    <string name="Torino_FC" translatable="false">Torino FC</string>
+    <string name="UC_Sampdoria" translatable="false">UC Sampdoria</string>
+    <string name="US_Citta_di_Palermo" translatable="false">US Cittá di Palermo</string>
+    <string name="US_Sassuolo_Calcio" translatable="false">US Sassuolo Calcio</string>
+    <string name="Udinese_Calcio" translatable="false">Udinese Calcio</string>
+
+    <string name="my_main">my_main</string>
+    <string name="pager_current">Pager_Current</string>
+    <string name="selected_match">Selected_match</string>
+    <string name="football_scores_hashtag">#Football_Scores</string>
+
+    <string name="share_content"><xliff:g id="home_team">%1$s</xliff:g>  v/s <xliff:g id="away_team">%2$s</xliff:g>
+        \nScore: <xliff:g id="score">%3$s</xliff:g>\nTime:  <xliff:g id="time">%4$s</xliff:g></string>
+</resources>
