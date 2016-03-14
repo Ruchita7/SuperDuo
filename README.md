@@ -2,15 +2,13 @@
 
 ####**Project Overview**
 
-You will productionize two apps, taking them from a functional state to a production-ready state. This will involve finding and handling error cases, adding accessibility features, allowing for localization, adding a widget, and adding a library.
-
-The criteria include a subset of the Core App Quality Guidelines. You can find the full list of guidelines here: http://developer.android.com/distribute/essentials/quality/core.html
+Productionize two apps, taking them from a functional state to a production-ready state. This will involve finding and handling error cases, adding accessibility features, allowing for localization, adding a widget, and adding a library.
 
 ####**Why this Project?**
 
 Super Duo gives you an opportunity to diagnose problems in a pair of apps and also practice improving apps. These skills are vital to building apps users will love.  
 Diagnosing issues with existing apps is key to working on large apps or continuing projects in Android.
-Being aware of the common pitfalls in app design frees a developer to produce novel app experiences without making the same mistakes over and over.
+Being aware of the common pitfalls in app design,frees a developer to produce novel app experiences without making the same mistakes over and over.
 
 ####**What Will I Learn?**
 
@@ -36,11 +34,11 @@ You will improve two apps for this project:
 
 **Football Scores** : An app that tracks current and future football matches (soccer, for students in the USA).
 
-You can download the starting code for both apps in the Downloadables section in your Classroom. These apps are currently functional, and work in most cases for most users.
+The main objective will be to take the user feedback in the UX Review node, and implement changes that will make each app production ready.All of the issues you need to address to meet specifications are hinted at in the UX Review. There are also a few optional ways in which the apps can be improved that are not mentioned in the UX Review.
 
-Your job will be to take the user feedback in the UX Review node, and implement changes that will make each app production ready.
-All of the issues you need to address to meet specifications are hinted at in the UX Review. There are also a few optional ways in which the apps can be improved that are not mentioned in the UX Review.
+####**Supporting Courses**
 
+You should have the skills you need to complete this app after completing Developing Android Apps and Advanced Android App Development.
 
 ####**Guidance for Super Duo:**
 
