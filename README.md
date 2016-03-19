@@ -1,102 +1,122 @@
-###**Project 3: Super Duo**
+#Super Duo
 
-####**Project Overview**
+##Overview
 
-Productionize two apps, taking them from a functional state to a production-ready state. This will involve finding and handling error cases, adding accessibility features, allowing for localization, adding a widget, and adding a library.
+This project productionized  two apps :
 
-####**Why this Project?**
+**Alexandria:** A book list and barcode scanner app which allows to manually enter or scan ISBN numbers.
 
-Super Duo gives you an opportunity to diagnose problems in a pair of apps and also practice improving apps. These skills are vital to building apps users will love.  
-Diagnosing issues with existing apps is key to working on large apps or continuing projects in Android.
-Being aware of the common pitfalls in app design,frees a developer to produce novel app experiences without making the same mistakes over and over.
+![Screenshot1](https://cloud.githubusercontent.com/assets/15085932/13896919/bab662ec-edc4-11e5-8d22-f1b142716fdf.png)
+![Screenshot2] (https://cloud.githubusercontent.com/assets/15085932/13896920/bab799f0-edc4-11e5-9d1e-dbc85363150e.png)
 
-####**What Will I Learn?**
+**Football Scores:** An app that tracks current and future football matches of popular football leagues. Widgets are provided to add to the user experiences
 
-In this project, you will:
+![Screenshot1](https://cloud.githubusercontent.com/assets/15085932/13896917/bab06108-edc4-11e5-9835-4caddeb011f0.png)
+![Screenshot2](https://cloud.githubusercontent.com/assets/15085932/13896918/bab19f32-edc4-11e5-80bd-e1ae8787b2bd.png)
 
-•	Diagnose existing issues with an app.
+Error Cases handled were :
 
-•	Make an app accessible to sight-impaired users.
+* Diagnose existing issues with an app.
 
-•	Allow your app to be localized for distribution in other countries.
+* Make an app accessible to sight-impaired users.
 
-•	Handle error cases in Android.
+* Allow your app to be localized for distribution in other countries.
+ 
+* Handle error cases in app.
 
-•	Add a widget to your app experience.
+* Add a widget to your app experience.
 
-•	Leverage the functionality of a library in your app.
+* Leverage the functionality of a library in your app.
 
-####**How Will I Complete this Project?**
+For further details see [Guidelines](https://docs.google.com/document/d/1dF3tFXEllEnFvW0rnMcPzq4pYanE4mn0axzhsQ70r8g/pub?embedded=true)
 
-You will improve two apps for this project:
+##Prerequisites
 
-**Alexandria**: A book list and barcode scanner app.
+ * The app is built with compileSdkVersion 21 and requires [JDK 7](http://oracle.com/technetwork/java/javase/downloads/index.html) or higher
+ 
+* Android Studio
 
-**Football Scores** : An app that tracks current and future football matches (soccer, for students in the USA).
+**Additional Requirements for Alaxandaria**
 
-The main objective will be to take the user feedback in the UX Review node, and implement changes that will make each app production ready.All of the issues you need to address to meet specifications are hinted at in the UX Review. There are also a few optional ways in which the apps can be improved that are not mentioned in the UX Review.
+ * Used libraries like [Butterknife](http://jakewharton.github.io/butterknife/),[Zxing](https://github.com/zxing/zxing) for scanning ISBN numbers, [Glide](https://github.com/bumptech/glide) for image loading and caching, dependencies for which are added in `SuperDuo/superduo/Alexandria_Code/alexandria/build.gradle` like :
+   
+    `compile 'com.journeyapps:zxing-android-embedded:3.0.2@aar'`
 
-####**Supporting Courses**
+    `compile 'com.google.zxing:core:3.2.0'`
+    
+    `compile 'com.jakewharton:butterknife:7.0.1'`
+    
+    `compile 'com.github.bumptech.glide:glide:3.6.1'`
+   
 
-You should have the skills you need to complete this app after completing Developing Android Apps and Advanced Android App Development.
+**Additional Requirements for Football Scores**
 
-####**Guidance for Super Duo:**
+ * To get football match scores/schedule, you will need API key from [Football-data.org](http://api.football-data.org/register).
+   
+ In your request for a key, state that your usage will be foreducational/non-commercial use. You will also need to provide some personal information to complete the request. Once you submit your request, you should receive your key via email shortly after.
 
-#####**User Feedback for Alexandria:**
+* Once you obtain your key, in your `SuperDuo/superduo/Football_Scores-Starting/Football_Scores-master/app/src/main/res/values/strings.xml`,
 
-**Lauren says:**
+    `<string name="api_key" translatable="false"></string>`
 
-“I like this app generally, and the speed at which books come up on my phone after I enter the ISBN is awesome. I’m frustrated that the scanning functionality isn’t implemented yet. That would speed up the whole process and make the app way more useful for me.”
+* Used Butterknife library as well.
 
-**Josh says:**
+##Instructions
 
-“This app is terrible. They say you can scan books, but that functionality isn’t in the app yet. It also crashed on me when I tried to add the book my sister was reading on the flight to London.”
+###Get the source codes
 
-#####**User Feedback for Football Scores:**
+Get the source code of the library and example app, by cloning git repository or downloading archives.
 
-**Your Boss says:**
+ * If you use **git**, execute the following command in your workspace directory.
+ 
+    `$ git clone https://github.com/Ruchita7/SuperDuo.git`
+    
+* If you are using Windows, try it on GitBash or Cygwin or something that supports git.
+ 
+###Import the project to Android Studio
+ 
+Once the project is cloned to disk you can import into Android Studio:
 
-"It's important to always use an API key when you can. Get your own API key and put it into the strings.xml file."
+ * From the toolbar select **File > Import Project**, or Import Non-Android Studio project from the Welcome Quick Start.
 
-**Stefan says:**
+ *  Select the directory that is cloned. If you can't see your cloned directory, click "Refresh" icon and find it.
 
-“This app took me a while to figure out, but it is totally worth it! It helps me keep track of when to be glued to my TV, and keeps me up to date when I’m not.”
+ *  Android Studio will import the project and build it. This might take minutes to complete. Even when the project window is opened, wait until the Gradle tasks are finished and indexed.
 
-**Moizeé says:**
+ *  Connect your devices to your machine and select app from the select Run/Debug Configuration drop down.Click the Run button
 
-“I have trouble navigating and understanding this app. It is not accessible to those of us without perfect vision."
+###Build and install using Gradle
 
-**Jennie says:**
+If you just want to install the app to your device, you don't have to import project to Android Studio.
 
-“I like the functionality of this app, but I hate having to open it up every time I want to check for a new game. Can’t you put something on the home screen for us?”
+ •  After cloning the project, make sure **ANDROID_HOME** environment variable is set to point to your Android SDK. See [Getting Started with Gradle](https://guides.codepath.com/android/Getting-Started-with-Gradle).
 
-####**The Rubric**
+ •  Connect an Android device to your computer or start an Android emulator.
 
-To **meet specifications**, your app must fulfill all of the criteria listed in this section of the rubric.
+ •  Compile the sample and install it. Run gradlew installDebug. Or if you on a Windows computer, use **gradlew.bat** instead.
+ 
+###Contributing
 
-**Required Behavior**
+Please follow the **"fork-and-pull"** Git workflow while contributing to this project
 
-App conforms to common standards found in the Android Nanodegree General Project Guidelines
+ **Fork** the repo on GitHub
 
-•	Alexandria has barcode scanning functionality.
+ **Commit** changes to a branch in your fork
 
-•	Alexandria does not crash while searching for a book without an internet connection.
+ **Pull request "upstream"** with your changes
 
-•	Football Scores can be displayed in a widget.
+ **Merge** changes in to "upstream" repo
 
-•	Football Scores app has content descriptions for all buttons.
+**NOTE:** Be sure to merge the latest from **"upstream"** before making a pull request!
+ 
+###FAQs
 
-•	Football Scores app supports layout mirroring.
+**The project can no longer be compiled/imported if I move it to another directory**
 
-**Optional Components**
+I typically include the dependencies in the repo and have them already linked, so if you move the project you'll need to also update the path to the dependency. To do this, modify the project.properties file of the project
 
-To receive **exceeds specifications**, your app must fully implement at least two of the following items.
+**I'm getting an error saying that there are multiple versions of a jar**
 
-•	Alexandria’s barcode scanning functionality does not require the installation of a separate app on first use.		
-
-•	Extra error cases are found, accounted for, and called out in code comments.		
-
-•	Football Scores also supports a collection widget.		
-
-•	Strings are all included in the strings.xml file and untranslatable strings have a translatable tag marked to false.		
+To fix this, make sure that all the jars you are using conform to the same version. You can do this by just replacing all the problematic jars with the version you would like to use.
+ 
 
